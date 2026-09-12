@@ -16,14 +16,14 @@ This hook acts as a **router, not an oracle**:
 Run the one-line installer via curl:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/upfera/junie-codebase-memory-mcp-hooks/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/upfera/junie-codebase-memory-mcp-hook/main/install.sh | bash
 ```
 
 ## Local Installation
 
 ```bash
-git clone https://github.com/upfera/junie-codebase-memory-mcp-hooks.git
-cd junie-codebase-memory-mcp-hooks
+git clone https://github.com/upfera/junie-codebase-memory-mcp-hook.git
+cd junie-codebase-memory-mcp-hook
 ./install.sh
 ```
 

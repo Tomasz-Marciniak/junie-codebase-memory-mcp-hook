@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-GITHUB_RAW_URL="https://raw.githubusercontent.com/upfera/junie-codebase-memory-mcp-hooks/main"
+GITHUB_RAW_URL="https://raw.githubusercontent.com/upfera/junie-codebase-memory-mcp-hook/main"
 JUNIE_DIR="${HOME}/.junie"
 HOOKS_DIR="${JUNIE_DIR}/hooks"
 CONFIG_FILE="${JUNIE_DIR}/config.json"
