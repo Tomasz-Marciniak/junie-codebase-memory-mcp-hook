@@ -1,5 +1,10 @@
 # Junie Codebase Memory MCP Hook
 
+> [!WARNING]
+> **Deprecated: use the [`codebase-memory` marketplace extension](https://github.com/upfera/junie-extensions/tree/main/extensions/codebase-memory) instead.** Do not install this standalone hook alongside the marketplace extension; both can register `UserPromptSubmit` and inject duplicate context. This standalone installer is retained only to help existing users clean up.
+>
+> Before installing the marketplace extension, run `./uninstall.sh` from a clone. If cleanup is incomplete, remove only `~/.junie/hooks/cbm-common.sh` and `~/.junie/hooks/cbm-project-router.sh`, plus the `UserPromptSubmit` hook entry invoking `~/.junie/hooks/cbm-project-router.sh` in `~/.junie/config.json`. Preserve unrelated hooks and settings.
+
 A fast, local, fail-open `UserPromptSubmit` hook for Junie CLI that detects when a user prompt mentions projects indexed by `codebase-memory-mcp` (CBM) and injects verification context.
 
 ## Overview
